@@ -11,7 +11,7 @@ from page.basepage import BasePage
 
 class Contactlist(BasePage):
     def goto_addmemberlist(self):
-        self.parse_action("../page/contactlist_page.yaml.yaml")
+        self.parse_action("../page/contactlist_page.yaml")
         # 通讯录页面滑动找添加成员按钮，找到后点击
         # ele = self.driver.find_element(MobileBy.ANDROID_UIAUTOMATOR,
         #                                'new UiScrollable(new UiSelector().scrollable(true).instance(0)).'

@@ -9,7 +9,7 @@ from page.manualadd import ManualAdd
 
 class AddMemberList(BasePage):
     def goto_manualadd(self):
-        self.parse_action("../page/main.yaml")
+        self.parse_action("../page/addmemberlist_page.yaml")
 
         # self.find_click("//*[@text = '手动输入添加']")
         # self.driver.find_element(MobileBy.XPATH, "//*[@text = '手动输入添加']").click()

@@ -46,4 +46,4 @@ class BasePage:
                 content: str = step["value"]
                 for param in self._params:
                     content = content.replace('{%s}'%param, self._params[param])
-                self.sendkeys(content)
+                self.sendkeys(step["locator"],content)
