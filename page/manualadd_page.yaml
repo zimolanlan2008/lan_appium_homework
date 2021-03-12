@@ -1,0 +1,30 @@
+- action : sendkeys
+  locator : //*[@resource-id='com.tencent.wework:id/b7m']
+  value : "{username}"
+
+- action : find_click
+  locator : //*[@resource-id='com.tencent.wework:id/eso']
+
+- action : find_click
+  locator : (//*[@resource-id='com.tencent.wework:id/bp9'])[2]
+
+- action : sendkeys
+  locator : //*[@resource-id='com.tencent.wework:id/fwi']
+  value : "{phonenum}"
+
+- action : find_click
+  locator : (//*[@resource-id='com.tencent.wework:id/b8p'])[2]
+
+- action : sendkeys
+  locator : //*[@resource-id='com.tencent.wework:id/js']
+  value : "{address}"
+
+- action : find_click
+  locator : //*[@resource-id='com.tencent.wework:id/ilc' and @text = '北京市门头沟区上园路']
+
+- action : find_click
+  locator : //*[@resource-id="com.tencent.wework:id/igh"]
+
+- action : find_click
+  locator : //*[@resource-id="com.tencent.wework:id/aj_"]
+
